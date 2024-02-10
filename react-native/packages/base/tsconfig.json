@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "removeComments": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ES6",
+    "allowJs": true,
+    "outDir": "dist",
+    "declaration": true,
+    "composite": true,
+    "rootDir": "src"
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts", "src/index.tsx"],
+  "exclude": [
+    ".ci",
+    "dist",
+    "node_modules",
+    "babel.config.ts",
+    "jest.config.ts",
+    "src/index.d.ts",
+    "src/**/__tests__",
+    "src/**/*.usage.tsx"
+  ]
+}
